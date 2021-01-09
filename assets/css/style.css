@@ -1,0 +1,32 @@
+body{
+    background-color: grey;
+}
+
+.menu {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between;
+}
+
+.logo {
+    /* TODO: See if this would be better as a percentage */
+    margin-top: 14px;
+    /* 55/1280 = 4.29% */
+    margin-left: 4.3%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+}
+
+.navbar > li {
+    margin: 0px 10px;
+    font-size: 18px;
+}
+
+.navbar > li > a {
+    color: white;
+    text-decoration: none;
+}
