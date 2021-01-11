@@ -30,3 +30,33 @@ body{
     color: white;
     text-decoration: none;
 }
+
+.white {
+    color: rgb(255, 255, 255);
+}
+
+#hero-img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -2;
+}
+
+#blue-hero-tint {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+  }
+
+.hero-text {
+    float: left;
+}
+
+.helvetica {
+    font-family: Helvetica, sans-serif;
+}
+
+.adelle {
+    font-family: Adelle, sans-serif;
+}
