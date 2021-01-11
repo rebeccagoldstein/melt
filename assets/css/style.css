@@ -2,10 +2,15 @@ body{
     background-color: grey;
 }
 
+/* -------------------------- */
+/* --------- Header --------- */
+/* -------------------------- */
+
 .menu {
     display: flex; 
     flex-direction: row; 
     justify-content: space-between;
+    margin-top: 10px;
 }
 
 .logo {
@@ -31,9 +36,37 @@ body{
     text-decoration: none;
 }
 
-.white {
-    color: rgb(255, 255, 255);
+/* -------------------------- */
+/* -- Hero Image & Content -- */
+/* -------------------------- */
+
+#hero-tagline {
+    font-size: 56pt;
+    font-weight: normal;
+    line-height: 1;
+    margin-top: 0;
+    margin-bottom: 0;
 }
+
+#hero-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+#hero-text {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
+/* #hero-images {
+    display: flex;
+    flex-direction: column;
+} */
 
 #hero-img {
   position: absolute;
@@ -49,14 +82,37 @@ body{
     z-index: -1;
   }
 
-.hero-text {
-    float: left;
+/* -------------------------- */
+/* -- iPad & iPhone Images -- */
+/* -------------------------- */
+
+#ipad-img {
+z-index: 1;
 }
+
+#iphone-img {
+z-index: 2;
+position: relative;
+left: 280px;
+bottom: 400px
+}
+
+/* -------------------------- */
+/* ----- Text and Fonts ----- */
+/* -------------------------- */
 
 .helvetica {
     font-family: Helvetica, sans-serif;
 }
 
+/* .helvetica-serif {
+    font-family: Helvetica, "Times New Roman", serif;
+} */
+
 .adelle {
-    font-family: Adelle, sans-serif;
+    font-family: adelle, sans-serif;
+}
+
+.text-white {
+    color: rgb(255, 255, 255);
 }
