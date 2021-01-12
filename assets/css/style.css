@@ -199,7 +199,40 @@
   position: relative;
   top: 300px;
 }
-#video-preview {
+
+/* -------------------------- */
+/* ------ Map Section ------- */
+/* -------------------------- */
+
+.map {
+  position: relative;
+  top: 400px;
+}
+
+#map-image {
+  width: 100%;
+}
+
+#map-location-box {
+  position: relative;
+  bottom: 450px;
+  left: 150px;
+}
+
+#map-box-text {
+  width: 250px;
+  height: 342px;
+  position: relative;
+  bottom: 350px;
+  left: 30px;
+  color: white;
+}
+
+#map-box-tagline {
+    font-size: 30pt;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
 }
 
 /* -------------------------- */
