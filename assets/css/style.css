@@ -209,9 +209,9 @@
   top: 400px;
 }
 
-#map-image {
+/* #map-image {
   width: 100%;
-}
+} */
 
 #map-location-box {
   position: relative;
@@ -221,7 +221,7 @@
 
 #map-box-text {
   width: 250px;
-  height: 342px;
+  height: 300px;
   position: relative;
   bottom: 350px;
   left: 30px;
