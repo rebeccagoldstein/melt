@@ -271,6 +271,8 @@
     height: 45px;
     font-size: 20pt;
     font-weight: lighter;
+    margin-right: 13px;
+    margin-bottom: 30px;
 }
 
 #form-email-input {
@@ -278,6 +280,8 @@
     height: 45px;
     font-size:20pt;
     font-weight: lighter;
+    margin-left: 13px;
+    margin-bottom: 30px;
 }
 
 #form-line-2 {
@@ -290,6 +294,7 @@
     height: 45px;
     font-size:20pt;
     font-weight: lighter;
+    margin-bottom: 30px;
 }
 
 #form-line-3 {
@@ -300,7 +305,7 @@
 #form-message-input {
     width: 830px;
     height: 225px;
-    font-size:20pt;
+    font-size: 20pt;
     font-weight: lighter;
 }
 /* -------------------------- */

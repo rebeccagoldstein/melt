@@ -131,7 +131,7 @@
           Fill out the form below and someone will get back to you faster than a
           speeding bullet.
         </p>
-        <form>
+        <form id="contact-us-form">
           <div id="form-line-1">
             <input
               id="form-name-input"
@@ -155,11 +155,8 @@
             />
           </div>
           <div id="form-line-3">
-            <input id="form-message-input"
-              type="text"
-              name="Mission"
-              placeholder="What is your mission?"
-            />
+            <textarea id="form-message-input" form="contact-us-form"class="helvetica" name="Mission">What is your mission?
+            </textarea>
           </div>
         </form>
       </div>
