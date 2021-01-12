@@ -303,6 +303,24 @@
   width: 165px;
   height: 40px;
 }
+/* -------------------------- */
+/* --------- Footer --------- */
+/* -------------------------- */
+
+footer {
+    position: relative;
+    bottom: 200px;
+    height: 80px;
+    width: 100%;
+    background-color: #89b8ea;
+}
+#footer-text {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+    color: #ffffff;
+}
 
 /* -------------------------- */
 /* ----- Text and Fonts ----- */
