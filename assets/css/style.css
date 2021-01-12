@@ -99,7 +99,7 @@
 }
 
 #hero-btn {
-    width: 30%;
+  width: 30%;
 }
 
 /* -------------------------- */
@@ -155,16 +155,16 @@
   margin-top: 50px;
   width: 100%;
   position: absolute;
-  z-index: -3
+  z-index: -3;
 }
 #grey-career-tint-1 {
-    margin-top: 50px;
-    width: 100%;
-    position: absolute;
-    z-index: -2
-  }
+  margin-top: 50px;
+  width: 100%;
+  position: absolute;
+  z-index: -2;
+}
 
-  /* #grey-career-tint-2 {
+/* #grey-career-tint-2 {
     margin-top: 50px;
     width: 100%;
     position: absolute;
@@ -172,21 +172,34 @@
   } */
 
 #careers-text {
-    color: #ffffff;
-    font-size: 44pt;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    top: 180px;
+  color: #ffffff;
+  font-size: 44pt;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 180px;
 }
 
 #careers-btn {
-    position:relative;
-    top: 160px;
-    left: 550px;
-    display: flex;
-    justify-content: center;
-    width: 20%;
+  position: relative;
+  top: 160px;
+  left: 550px;
+  display: flex;
+  justify-content: center;
+  width: 20%;
+}
+
+/* -------------------------- */
+/* ----- Video Section ------ */
+/* -------------------------- */
+
+.video {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 300px;
+}
+#video-preview {
 }
 
 /* -------------------------- */
