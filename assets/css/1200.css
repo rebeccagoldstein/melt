@@ -206,9 +206,9 @@
     top: 400px;
   }
   
-  /* #map-image {
+  #map-image {
     width: 100%;
-  } */
+  }
   
   #map-location-box {
     position: relative;
