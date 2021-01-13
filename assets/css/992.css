@@ -130,6 +130,7 @@
         z-index: 1;
         height: 50%;
         width: auto;
+        display: inline;
       }
     
       #iphone-image {
@@ -139,6 +140,7 @@
         bottom: 380px;
         height: 35%;
         width: auto;
+        display: inline;
       }
     
       /* -------------------------- */

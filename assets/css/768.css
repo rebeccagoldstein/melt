@@ -131,6 +131,7 @@
         width: auto;
         position: relative;
         left: 50px;
+        display: inline;
       }
     
       #iphone-image {
@@ -140,6 +141,7 @@
         bottom: 20px;
         height: 28%;
         width: auto;
+        display: inline;
       }
     
       /* -------------------------- */

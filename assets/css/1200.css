@@ -128,6 +128,7 @@
 
   #ipad-image {
     z-index: 1;
+    display: inline;
   }
 
   #iphone-image {
@@ -135,6 +136,7 @@
     position: relative;
     left: 280px;
     bottom: 400px;
+    display: inline;
   }
 
   /* -------------------------- */
